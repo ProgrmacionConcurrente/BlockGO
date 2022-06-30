@@ -18,7 +18,7 @@ func main() {
 
 	for _, Block := range bc.blocks {
 		fmt.Printf("Hash B.A.: %x\n", Block.PrevBlockHash)
-		fmt.Printf("Data: %s\n", Block.Data)
+		fmt.Printf("Data: %v\n", Block.Data)
 		fmt.Printf("Hash: %x\n\n", Block.Hash)
 	}
 
