@@ -13,7 +13,7 @@ func (bc *Blockchain) AddBlock(data Data) {
 }
 
 func NewGenesisBlock() *Block {
-	data := Data{"0", "profesor", "profesor", 1000, time.Now(), time.Now()}
+	data := Data{100, "profesor", "profesor", 1000, time.Now(), time.Now()}
 	return NewBlock(data, []byte{})
 }
 

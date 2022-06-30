@@ -8,7 +8,7 @@ import (
 )
 
 type Data struct {
-	Id           string    `json:"id"`
+	Id           int       `json:"id"`
 	Username     string    `json:"username"`
 	Password     string    `json:"password"`
 	Amount       float32   `json:"amount"`
